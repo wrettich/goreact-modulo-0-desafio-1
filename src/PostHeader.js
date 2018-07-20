@@ -2,12 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const PostHeader = props => {
+
+	const styles = { backgroundImage: 'url(' + props.img + ')'};
+
 	return <header className="post-header">
 			<div className="avatar">
-				<img src={props.img} className="thumb" alt={props.name}></img>
+				<figure className="thumb" style={styles}></figure>
 			</div>
-			<h2>{props.name}</h2>
-			<span>{props.time}</span>
+			<h2 className="author">{props.name}</h2>
+			<span className="helper">{props.time}</span>
 		</header>;
 }
 
