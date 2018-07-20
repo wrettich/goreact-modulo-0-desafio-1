@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/wrettich/goreact-modulo-0-desafio-1/issues"
   },
-  "homepage": "https://github.com/wrettich/goreact-modulo-0-desafio-1#readme"
+  "homepage": "https://github.com/wrettich/goreact-modulo-0-desafio-1#readme",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
 }
