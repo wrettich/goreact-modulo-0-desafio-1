@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const PostHeader = props => {
 
-	const styles = { backgroundImage: 'url(' + props.img + ')'};
+	const styles = { backgroundImage: `url(${props.img})`};
 
 	return <header className="post-header">
 			<div className="avatar">
