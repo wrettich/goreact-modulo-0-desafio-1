@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+
+$roboto-slab: 'Roboto Slab', serif;
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	background-color: #E9EBEE;
+	font-family: $roboto-slab;
+}
+
+.app {
+	.header {
+		background: #4267B2;
+		text-align: center;
+		padding: 10px;
+		border-bottom: 1px solid #29487D;
+
+		h1 {
+			color: #fff;
+			font-size: 20px;
+		}
+	}
+
+	.content {
+		text-align: center;
+	}
+
+	.post {
+		width: 500px;
+		margin: 0 auto;
+	}
+}
